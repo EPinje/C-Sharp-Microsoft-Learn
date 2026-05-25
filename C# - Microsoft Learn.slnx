@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Turorials/">
+    <Project Path="Tutorials/Hello world and text/Hello world and text.csproj" Id="4de32858-a344-45e5-be8b-d09fc8a19e52" />
+    <Project Path="Tutorials/Numbers in C#/Numbers in C#.csproj" Id="b41cce14-a333-4d68-ba20-6dc84f7909ee" />
+  </Folder>
+</Solution>
