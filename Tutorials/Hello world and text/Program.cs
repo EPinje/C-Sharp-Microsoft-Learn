@@ -12,6 +12,10 @@ namespace Hello_world_and_text
         {
             Console.WriteLine("Hello, World!");
 
+            Console.WriteLine();
+            Console.ReadKey();
+
+
             //string
 
             string aFriend = "Bill";
@@ -22,6 +26,12 @@ namespace Hello_world_and_text
 
             Console.WriteLine($"Hello {aFriend}");
 
+            Console.WriteLine();
+            Console.ReadKey();
+
+
+            //Console.WriteLine(${string.Length})
+
             string firstFriend = "Maria";
             string secondFriend = "Sage";
             Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
@@ -29,7 +39,9 @@ namespace Hello_world_and_text
             Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} letters.");
             Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} letters.");
 
-            //Console.WriteLine({firstFriend.})
+            Console.WriteLine();
+            Console.ReadKey();
+
 
             //Trim: TrimStart and TrimEnd
 
@@ -45,6 +57,10 @@ namespace Hello_world_and_text
             trimmedGreeting = greeting.Trim();
             Console.WriteLine($"[{trimmedGreeting}]");
 
+            Console.WriteLine();
+            Console.ReadKey();
+
+
             //Search and replace
 
             string sayHello = "Hello World!";
@@ -52,16 +68,28 @@ namespace Hello_world_and_text
             sayHello = sayHello.Replace("Hello", "Greetings");
             Console.WriteLine(sayHello);
 
+            Console.WriteLine();
+            Console.ReadKey();
+
+
             //upper and lowercase letters
 
             Console.WriteLine(sayHello.ToUpper());
             Console.WriteLine(sayHello.ToLower());
+
+            Console.WriteLine();
+            Console.ReadKey();
+
 
             //Contains
 
             string songLyrics = "You say goodbye, and I say hello";
             Console.WriteLine(songLyrics.Contains("goodbye"));
             Console.WriteLine(songLyrics.Contains("greetings"));
+
+            Console.WriteLine();
+            Console.ReadKey();
+
 
             //StartsWith and EndsWith
 
@@ -70,6 +98,9 @@ namespace Hello_world_and_text
 
             Console.WriteLine(songLyrics.EndsWith("hello"));
             Console.WriteLine(songLyrics.EndsWith("goodbye"));
+
+            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }
