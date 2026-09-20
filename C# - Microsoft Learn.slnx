@@ -1,6 +1,10 @@
 <Solution>
   <Folder Name="/Turorials/">
     <Project Path="Tutorials/Hello world and text/Hello world and text.csproj" Id="4de32858-a344-45e5-be8b-d09fc8a19e52" />
-    <Project Path="Tutorials/Numbers in C#/Numbers in C#.csproj" Id="b41cce14-a333-4d68-ba20-6dc84f7909ee" />
+  </Folder>
+  <Folder Name="/Turorials/Numbers in C#/">
+    <Project Path="Tutorials/Numbers in C#/Decimal/Decimal.csproj" Id="36ad891f-049c-41c7-b885-8d45c85c09a0" />
+    <Project Path="Tutorials/Numbers in C#/Double/Double.csproj" Id="75efc8b3-84c4-4eae-958c-2b3e66463225" />
+    <Project Path="Tutorials/Numbers in C#/Integers/Intege2rs.csproj" Id="a210299f-14a6-4050-839b-1364f99ce7df" />
   </Folder>
 </Solution>

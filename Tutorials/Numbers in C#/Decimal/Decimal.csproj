@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B41CCE14-A333-4D68-BA20-6DC84F7909EE}</ProjectGuid>
+    <ProjectGuid>{36AD891F-049C-41C7-B885-8D45C85C09A0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Numbers_in_C_</RootNamespace>
-    <AssemblyName>Numbers in C#</AssemblyName>
+    <RootNamespace>Decimal</RootNamespace>
+    <AssemblyName>Decimal</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
